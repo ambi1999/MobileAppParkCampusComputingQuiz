@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/white">
+
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:src="@drawable/icon" />
+
+
+			
+	<TextView android:id="@+id/correctanswer"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="" android:textSize="15px" android:textColor="@color/green"></TextView>
+
+
+			<TextView android:id="@+id/marksview" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text=""
+				android:textSize="15px" android:textColor="@color/lightblue"></TextView>
+
+			
+<ImageView android:id="@+id/winimage1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+<TextView android:id="@+id/quizstartdesc" android:layout_width="wrap_content" android:textStyle="bold"
+android:textSize="12px"
+				android:layout_height="wrap_content" android:text="Following are FOUR questions. Please answer and click the submit button."></TextView>
+
+			<Button android:layout_width="100px" android:layout_height="50px"
+				android:text="Submit Quiz" android:id="@+id/submitquiz" />
+				
+				
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:fillViewport="true">
+
+
+
+
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:background="@color/black">
+
+
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="Q1. Which one of the following computing innovation was developed in Cheltenham in the year 1980?" />
+
+			<RadioGroup android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:id="@+id/QueGroup1">
+				<RadioButton android:checked="false" android:id="@+id/option1a"
+					android:text="Robot" />
+				<RadioButton android:checked="false" android:id="@+id/option1b"
+					android:text="Computer hard disk" />
+				<RadioButton android:checked="false" android:id="@+id/option1c"
+					android:text="CDROM" />
+				<RadioButton android:checked="false" android:id="@+id/option1d"
+					android:text="Quantum computers" />
+			</RadioGroup>
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="Q2. What is 3 + 5?" />
+
+			<RadioGroup android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:id="@+id/QueGroup2">
+				<RadioButton android:checked="false" android:id="@+id/option2a"
+					android:text="1970" />
+				<RadioButton android:checked="false" android:id="@+id/option2b"
+					android:text="5" />
+				<RadioButton android:checked="false" android:id="@+id/option2c"
+					android:text="1990" />
+				<RadioButton android:checked="false" android:id="@+id/option2d"
+					android:text="1995" />
+			</RadioGroup>
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="Q3. What is the color of trees?" />
+
+			<RadioGroup android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:id="@+id/QueGroup3">
+				<RadioButton android:checked="false" android:id="@+id/option3a"
+					android:text="red" />
+				<RadioButton android:checked="false" android:id="@+id/option3b"
+					android:text="green" />
+				<RadioButton android:checked="false" android:id="@+id/option3c"
+					android:text="blue" />
+				<RadioButton android:checked="false" android:id="@+id/option3d"
+					android:text="orange" />
+			</RadioGroup>
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="Q4. Which year man went on moon?" />
+
+			<RadioGroup android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:id="@+id/QueGroup4">
+				<RadioButton android:checked="false" android:id="@+id/option4a"
+					android:text="1970" />
+				<RadioButton android:checked="false" android:id="@+id/option4b"
+					android:text="1980" />
+				<RadioButton android:checked="false" android:id="@+id/option4c"
+					android:text="1990" />
+				<RadioButton android:checked="false" android:id="@+id/option4d"
+					android:text="1969" />
+			</RadioGroup>
+
+
+
+
+
+
+
+		</LinearLayout>
+
+
+
+	</ScrollView>
+</LinearLayout>
